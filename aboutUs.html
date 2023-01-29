@@ -43,41 +43,12 @@
 
     <!-- Default style-sheet is for 'media' type screen (color computer display).  -->
     <link rel="stylesheet" media="screen" href="./assets/css/style.css" >
+    <link rel="stylesheet" media="screen" href="./assets/css/about.css" >
 
     <!-- html5shiv aka html5 shim. Supporting HTML5 and CSS for IE browsers less than IE9. -->	
     <!--[if lt IE 9]>  
     <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>  
     <![endif]-->
-<style>
- 
-.about1 {
-  width: 80%;
-  height: 200px;
-  padding: 20px 5px;
-  border-radius: 10px;
-  transform-style: preserve-3d;
-  transition: all 0.5s ease;
-  background-color: #fff;
-
-}
-.title {
-  padding: 8px 0;
-  color: #fac832;
-  font-size: 44px;
-  font-weight: 600;
-  text-align: center;
-  text-transform: uppercase;
-}
-.face p {
-  margin-top: 0px;
-  color: #a2abb1;
-  text-align: center;
-}
- 
-
-
-
-</style>
 
   </head>
 
@@ -141,9 +112,6 @@
                 <a href="./ourWork.html" title="Our Work">Our Work</a>
               </li>
               <li>
-                <a href="./assets/filterable lightbox gallery/gallery.html" title="Gallery">Gallery</a>
-              </li>
-              <li>
                 <a href="./DonateNow.html" title="Donate">Donate</a>
               </li>
               <li>
@@ -184,6 +152,88 @@
               </div>
             </div>
             <hr class="hr">
+          </div>
+
+          <div class="container">
+            <h3 class="cTitle">Board of Directors</h3>
+          <div class="Team-container">
+            <div class="card">
+              <div class="imgBx">
+                <img src="https://via.placeholder.com/350x200%20?text=profile" alt="">
+              </div>
+              <div class="details">
+                <div class="content">
+                  <h2>Vijay Golap<br>
+                    <span>President</span>
+                  </h2>
+                  <ul>
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">TW</a></li>
+                    <li><a href="#">YT</a></li>
+                    <li><a href="#">IN</a></li>
+                  </ul>
+                  <a href="#" data-par1="president" class="info">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                <img src="https://via.placeholder.com/350x200%20?text=profile" alt="">
+              </div>
+              <div class="details">
+                <div class="content">
+                  <h2>Santaram Mane<br>
+                    <span>Secretary</span>
+                  </h2>
+                  <ul>
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">TW</a></li>
+                    <li><a href="#">YT</a></li>
+                    <li><a href="#">IN</a></li>
+                  </ul>
+                  <a href="#" data-par1="Secretary" class="info">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                <img src="https://via.placeholder.com/350x200%20?text=profile" alt="">
+              </div>
+              <div class="details">
+                <div class="content">
+                  <h2>Baburao Shendge<br>
+                    <span>Project Manager</span>
+                  </h2>
+                  <ul>
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">TW</a></li>
+                    <li><a href="#">YT</a></li>
+                    <li><a href="#">IN</a></li>
+                  </ul>
+                  <a href="#" data-par1="Project Manager" class="info">Read More</a>
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgBx">
+                <img src="https://via.placeholder.com/350x200%20?text=profile" alt="">
+              </div>
+              <div class="details">
+                <div class="content">
+                  <h2>Kalpesh Mane<br>
+                    <span>Marketing and Admin</span>
+                  </h2>
+                  <ul>
+                    <li><a href="#">FB</a></li>
+                    <li><a href="#">TW</a></li>
+                    <li><a href="#">YT</a></li>
+                    <li><a href="#">IN</a></li>
+                  </ul>
+                  <a href="#" data-par1="Marketing and Admin" class="info">Read More</a>
+                </div>
+              </div>
+            </div>
+          </div>
           </div>
         </section>
 
@@ -333,13 +383,32 @@
 </div>
 </footer>
 <!--footer section end-->
-
+<!-- Modal -->
+<div class="modal fade" id="ProfileModal" tabindex="-1" role="dialog" aria-labelledby="ProfileModal" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="ProfileModalLabel">Modal title</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p></p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
 <script src="./assets/vendor/jquery.js"></script>
 <script src="./assets/vendor/bootstrap/popper.min.js"></script>
 <script src="./assets/vendor/bootstrap/bootstrap.min.js"></script>
 <script src="./assets/js/script.js"></script> 
+<script src="./assets/js/about.js"></script> 
 <script>
   
 </script>
